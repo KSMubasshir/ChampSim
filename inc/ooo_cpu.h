@@ -172,6 +172,7 @@ class O3_CPU : public champsim::operable {
     // functions
     void init_instruction(ooo_model_instr instr);
     void check_dib(),
+         get_furthest_instruction(__gnu_cxx::__normal_iterator<BLOCK *, vector<BLOCK>> instr),
          translate_fetch(),
          fetch_instruction(),
          promote_to_decode(),

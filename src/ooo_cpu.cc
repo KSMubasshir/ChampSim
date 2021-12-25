@@ -296,6 +296,7 @@ void O3_CPU::init_instruction(ooo_model_instr arch_instr)
     instr_unique_id++;
 }
 
+
 void O3_CPU::check_dib()
 {
     // scan through IFETCH_BUFFER to find instructions that hit in the decoded instruction buffer

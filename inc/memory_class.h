@@ -32,6 +32,7 @@ class BLOCK {
 
     // replacement state
     uint32_t lru = std::numeric_limits<uint32_t>::max() >> 1;
+    uint32_t opt = std::numeric_limits<uint32_t>::max() >> 1;
 };
 
 class MemoryRequestConsumer
